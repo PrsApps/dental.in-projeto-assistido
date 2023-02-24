@@ -14,3 +14,26 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.header,
+.presentation,
+.about-us,
+.services,
+.bottom-slogan,
+.footer {
+    border: solid 1px red;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.bottom-slogan-container {
+    background-color: #C4C4C40F;
+}
+
+.about-us,
+.services,
+.bottom-slogan-container,
+.footer {
+    margin-top: 80px;
+}
