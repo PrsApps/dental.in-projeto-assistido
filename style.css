@@ -21,19 +21,40 @@ body {
 .services,
 .bottom-slogan,
 .footer {
-    border: solid 1px red;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-.bottom-slogan-container {
-    background-color: #C4C4C40F;
-}
+
 
 .about-us,
 .services,
 .bottom-slogan-container,
 .footer {
     margin-top: 80px;
+}
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 116px;
+}
+
+.header__cta {
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    width: 130px;
+    height: 32px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: var(--primary-color);
 }
