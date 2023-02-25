@@ -112,3 +112,42 @@ body {
     margin-top: 40px;
     max-width: 262px;
 }
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us__tag {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--gray-100);
+    display: block;
+    text-align: center;
+}
+
+.about-us__title {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.about-us__company-name-in-title {
+    color: var(--gray-100);
+}
+
+.about-us__text {
+    font-size: 14px;
+    color: var(--gray-200);
+    line-height: 21px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us__image {
+    margin-top: 50px;
+    max-width: 274px;
+}
