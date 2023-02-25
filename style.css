@@ -228,3 +228,19 @@ body {
     max-width: 239px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.footer__logo {
+    width: 120px;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: var(--gray-200);
+    margin-top: 32px;
+}
